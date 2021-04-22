@@ -1,11 +1,13 @@
-import React from 'react'
-import { BrowserRouter } from 'react-router-dom';
+import React from 'react';
+import Header from './components/Header';
+import HeaderContent from './components/HeaderContent';
 
 function App() {
   return (
-    <BrowserRouter>
-      
-    </BrowserRouter>
+    <>
+      <Header />
+      <HeaderContent title="Titulo"/>
+    </>
   );
 }
 
