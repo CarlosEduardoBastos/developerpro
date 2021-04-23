@@ -9,12 +9,13 @@ export const Conteiner = styled.section`
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        align-items: center;
+        
     }
     
     .corpo_text{
+        margin-left: 10px;
         width: 400px;
-        height: 400px;
+        height: 300px;
         
         h1{
             color: white;
@@ -24,6 +25,19 @@ export const Conteiner = styled.section`
             color: white;
             font-size: 1.4rem;
             line-height: 1.2;
+        }
+        .nome{
+            color: tomato;
+        }
+        li{
+            display: inline-block;
+            margin: 5px;
+            color: white;
+        }
+        h3{
+            text-align: center;
+            color: white;
+            margin: 5px;
         }
     }  
 `;

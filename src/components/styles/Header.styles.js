@@ -12,6 +12,7 @@ export const HeaderConteiner = styled.header`
         align-items: center;
     }
     .logo{
+        margin-left: 10px;
         color: white;
         text-decoration: none;
         font-size: 1.3rem;
