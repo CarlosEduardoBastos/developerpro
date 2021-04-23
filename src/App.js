@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Header />
-      <HeaderContent title="Titulo"/>
+      <HeaderContent title="Sobre"/>
     </>
   );
 }
